@@ -11,7 +11,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "Classic\\Package\\Support": "src/"
-        }
+            "Classic\\Package\\Support\\": "src/"
+        },
+        "files": [
+            "src/func.php"
+        ]
     }
 }
